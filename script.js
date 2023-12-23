@@ -12,11 +12,3 @@ $(document).ready(function () {
     $("#page-mask").css("display", "none");
   });
 });
-
-var loginStatus = "";
-
-if (loginStatus == "try_again" && loginStatus !== "") {
-  $(".login_form").css("display", "block");
-  $("#page-mask").css("display", "block");
-  $("#error_msg").css("opacity", "1");
-}
