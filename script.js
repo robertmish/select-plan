@@ -22,7 +22,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#basic").click(function (e) {
     $("#selected_plan").val("Basic");
-    $("#basic").css("border", "1px solid blue");
+    $("#basic").css("border", "3px solid blue");
     $("#standard").css("border", "1px solid #dedede");
     $("#premium").css("border", "1px solid #dedede");
   });
@@ -31,7 +31,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#standard").click(function (e) {
     $("#selected_plan").val("Standard");
-    $("#standard").css("border", "1px solid blue");
+    $("#standard").css("border", "3px solid blue");
     $("#basic").css("border", "1px solid #dedede");
     $("#premium").css("border", "1px solid #dedede");
   });
@@ -40,7 +40,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#premium").click(function (e) {
     $("#selected_plan").val("Premium");
-    $("#premium").css("border", "1px solid blue");
+    $("#premium").css("border", "3px solid blue");
     $("#standard").css("border", "1px solid #dedede");
     $("#basic").css("border", "1px solid #dedede");
   });
