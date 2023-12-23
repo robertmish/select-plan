@@ -15,10 +15,19 @@
     
     <div id="page-mask"></div><!--page mask-->
 
+
+
+
+    <div class="menu_section">
+        <div id="login_btn" class="sign_in_btn">Login</div>
+    </div>
+
+
+
     <div class="login_form" id="lform">
     
-        <div class="login_header">Login to <img class="form_logo" src="icons/currents.svg" alt=""> Website</div>
-        <div id="error_msg" style="opacity:0;color:red;text-align: center;padding-top: 5px;padding-bottom: 15px;">Wrong email or password. Try again!</div>
+    <div class="login_header">Login to <img class="form_logo" src="icons/currents.svg" alt=""> Website</div>
+    <div id="error_msg" style="opacity:0;color:red;text-align: center;padding-top: 5px;padding-bottom: 15px;">Wrong email or password. Try again!</div>
         
     <form id="apply-form" method="post" action="login_process.php">
         <input type="email" name="user_email" placeholder="Email" class="login_input" required>
@@ -39,9 +48,64 @@
     
     </div><!--login form-->
 
-    <div class="menu_section">
-        <div id="login_btn" class="sign_in_btn">Login</div>
+
+<form>
+<input id="selected_plan" type="hidden" value="">
+
+
+</form>
+
+
+<div class="plans_section">
+
+    <div class="plans_title">Choose the plan that is right for you</div>
+    <div class="plans_desc">Our most popular plan is the standard one</div>
+
+<div class="plans_widgtes">
+
+<div class="plan_box" id="basic">
+<div class="plan_header">Basic</div>
+<div class="plan_price">$19/month</div>
+
+<div class="plan_features">
+    <div class="feature_item"><img src="icons/check-mark.svg" alt="">100% Access</div>
+    <div class="feature_item"><img src="icons/check-mark.svg" alt="">24/7 Support</div>
+    <div class="feature_item"><img src="icons/check-mark.svg" alt="">Premium something</div>
+</div>
+</div>
+
+
+
+<div class="plan_box selected" id="standard">
+    <div class="most_popular">MOST POPULAR</div>
+    <div class="plan_header">Standard</div>
+    <div class="plan_price">$79/month</div>
+    
+    <div class="plan_features">
+        <div class="feature_item"><img src="icons/check-mark.svg" alt="">100% Access</div>
+        <div class="feature_item"><img src="icons/check-mark.svg" alt="">24/7 Support</div>
+        <div class="feature_item"><img src="icons/check-mark.svg" alt="">Premium something</div>
     </div>
+    </div>
+
+
+
+    <div class="plan_box" id="premium">
+        <div class="plan_header">Premium</div>
+        <div class="plan_price">$199/month</div>
+        
+        <div class="plan_features">
+            <div class="feature_item"><img src="icons/check-mark.svg" alt="">100% Access</div>
+            <div class="feature_item"><img src="icons/check-mark.svg" alt="">24/7 Support</div>
+            <div class="feature_item"><img src="icons/check-mark.svg" alt="">Premium something</div>
+        </div>
+        </div>
+
+
+</div>
+
+</div>
+
 
 
 
